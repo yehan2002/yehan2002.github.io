@@ -1,0 +1,16 @@
+//Caching schema
+<FilesMatch "\.(jpg|png|js)$">
+Header set Cache-Control "public, max-age=9642240000"
+</FilesMatch>
+
+//Password Protect file
+<Files /build>
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile /build/.htpasswd
+Require valid-user
+</Files>
+
+//Custom 404 errors
+ErrorDocument 404 /404.html
+ 
