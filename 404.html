@@ -1,79 +1,54 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Error 404 - Page Not Found</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html>
+<head>
+  <style>
+  *{
+    text-align: center;
+  }
+  #error{
+    margin-top: 10%;
+  }
+  #e1{
+    margin: 0;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 400;
+  }
+  #e2{
+    font-family: "lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+    margin: 0;
+    margin-bottom: 28px;
+    box-sizing: border-box;
+  }
+  #btn{
+    color: #E15718;
+    background-color: #fff;
+    text-decoration: none;
+    display:inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid #E15718;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 4px;
+    -webkit-user-select:none;
+    user-select: none;
+    font-family: "lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-		
-        <link rel="stylesheet" href="/404/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/404/css/normalize.css">
-        <link rel="stylesheet" href="/404/css/style.css">		
-		<link rel="stylesheet" href="/404/css/responsive.css">
-        <script src="/404/js/vendor/modernizr-2.6.2.min.js"></script>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-		
-		<!-- 404 content -->
-		<div class="four_zero_warapper_area column">
-			<div class="header">
-				<h3>Error</h3>
-			</div>
-			<div class="four_zero_text">
-				<h1>There Is Nothing Out Here</h1>
-				<h2>Houston, we have a problem!<br>The page could not be found</h2>
-				<h3>these are the most common reason you are seeing this:-</h3>
-				<p style="line-height: 1.8;text-transform: capitalize;"><br>
-				1.The does not exist In This Universe.<br>
-				2.The Page only exists in a parrerel dimension.<br>
-				3.The Page is lost in space<br>
-				4.The Page was abducted by aliens<br>
-				5.The Page does not exist<br>
-				6.The URL you entered was incorrect
-				</p>
-			</div>
-		</div>
-		<!-- end 404 content -->
-		
-		<!-- 404 mainmenu -->
-		<div class="mainmenu_area">
-		
-			<div class="menu_heading column">
-				<h2>try another demension</h2>
-			</div>
-			
-			<!-- mainmenu -->
-			<div class="mainmenu_bg">
-				<div class="mainmenu column">
-					<ul>
-						<li><a href="https://yehan2002.github.io/v2/index.html">Home</a></li>                                                  
-						<li><a href="https://yehan2002.github.io/v2/software.html">Software</a></li>
-						<li><a href="https://yehan2002.github.io/v2/websites.html">Websites</a></li>
-						<li><a href="https://yehan2002.github.io/v2/bug.html">Bug report</a></li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-		<!-- end 404 mainmenu -->
-		
-		
-		
-
-        <script src="/404/js/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/404/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="/404/js/bootstrap.min.js"></script>
-    </body>
-</html>
+  </style>
+</head>
+<body>
+  <div id='error'>
+    <h1 id='e1'>We couldn't find this page</h1>
+    <p id='e2'>Good job, Captain Kirk! You've boldly gone where no man has gone before.</p>
+    <a href='//yehan2002.github.io' id='btn'>Beam me home</a>
+  </div>
