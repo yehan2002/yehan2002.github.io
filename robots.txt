@@ -2,4 +2,3 @@ User-Agent: *
 Disallow: 
 Allow: /
 
-Sitemap: https://yehan2002.github.io/sitemap.xml
